@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: pink;
+  text-align: center;
+  font-size: 30px;
+}
+
+.content {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+#typing-div {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+#typing-form {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+#answer-count {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
+  padding-top: 15rem;
+  padding-left: 43rem;
+}
+#input-typing {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  margin-top: 5rem;
+  margin-left: 40rem;
+  margin-right: 40rem;
+}
+/* #typing-value {
+  display: none;
+} */

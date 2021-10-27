@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header">
+        <h1>타이핑 게임</h1>
+    </div>
+    <p id = "answer-count">문제 : 닭 맞춘 횟수 : 0</p>
+    <div class="content">       
+        <form id="typing-form">
+            <div id="typing-div">
+                <input type="text" onkeyup="if(window.event.keyCode==13){inputstr()}" id="input-typing" /> 
+                <input type="text" style="display:none;"/>
+                <p id="typing-value"></p>
+            </div>       
+            </form> 
+    </div>
+
+    <script src="main.js"></script> 
+
+</body>
+</html>
